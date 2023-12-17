@@ -3,6 +3,7 @@ Servo servo;
 int angle = 0;
 int angleStart = 90; // 130
 int angleEnd = 167;
+// Push Btn angle = 77 
 void setup() {
   servo.attach(8);
   servo.write(0);
